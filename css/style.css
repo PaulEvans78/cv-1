@@ -1,0 +1,1347 @@
+/* MOBILE FIRST */
+
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+
+:root {
+    --main-border: 2px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 375px;
+}
+
+.container-frontpage {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+    padding: 0.5em;
+}
+
+header, .contents-cv, .contents-about, .contents-portfolio, footer {
+    padding: 0.5em;
+}
+
+.contents-cv, .contents-about, .contents-portfolio {
+    margin-top: 0.25em;
+    font-family: Oswald ;
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+    border: var(--main-border);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+/* NAV */
+
+
+.horizontal-nav {
+    display: none;
+}
+
+nav {
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    background-color: rgb(40, 39, 39);
+    text-align: center;
+    border: var(--main-border);
+    order: 2;
+    margin: 0em 0.50em 1em 0.50em;
+}
+
+.nav-btn {
+    font-family: Oswald;
+    font-size: 2rem;
+    color: white;
+    margin: 0.75em 2em 0.75em 2em;
+}
+
+ul  {
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background: hotpink;
+    width: 100%;
+    height: 100vh;
+    border: var(--main-border);
+    padding: 12px 16px;
+    margin-top: 1em;
+    z-index: 1;
+    list-style: none;
+}
+
+.navLink:hover {
+    color: rgb(69, 67, 67);
+}
+
+a {
+    text-decoration-line: none;
+    font-family: Oswald ;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navLink {
+    line-height: 2em;
+    font-size: 2rem;
+}
+
+#currentLink-pink {
+  color: hotpink;
+}
+
+#currentLink-white {
+    color: whitesmoke;
+}
+
+.dropdown-content {
+    animation: growDown 600ms ease-in-out forwards;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+    80% {
+        transform: scaleY(1.1)
+    }
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+
+
+
+
+
+
+
+
+/* TITLE */
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Oswald ;
+    font-size: 6rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    order: 3;
+}
+
+.title span {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+
+
+
+
+
+
+
+
+/* CONTENTS */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5em;
+    padding-top: 0;
+    order: 4;
+}
+
+.contents-cv, .contents-about, .contents-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    font-family: Oswald ;
+    font-size: 4rem;
+}
+
+.contents-cv {
+    order: 5;
+}
+
+.contents-about {
+    order: 6;
+}
+
+.contents-portfolio {
+    margin-bottom: 0.25em;
+    order: 7;
+}
+
+.contents-cv-img, .contents-about-img, .contents-portfolio-img {
+    display: none;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5em;
+    text-align: center;
+    order:8;
+}
+
+.contents:hover {
+    opacity: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    order: 14;
+}
+
+.contactHeader {
+  text-decoration: none;
+}
+
+#contact {
+    background-color: rgb(40, 39, 39);
+    margin-bottom: 0.5em;
+    font-family: Oswald ;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    border: var(--main-border);
+    padding-bottom: 0.5em;
+    order: 12;
+}
+
+p {
+    line-height: 0.5em;
+}
+
+.pinkStyle {
+    color: hotpink;
+}
+
+#social {
+    background-color: rgb(40, 39, 39);
+    width: 100%;
+    border: var(--main-border);
+    margin-bottom: 0.5em;
+    padding: 1em;
+    order: 13;
+}
+
+#img-insta, #img-linked {
+    height: 50px;
+}
+
+.footer-mail-contact-font {
+    font-family: Oswald ;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.footer-mail-contact-font:hover {
+    color: hotpink;
+}
+
+#img-insta:hover, #img-linked:hover {
+    height: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* CV PAGE */
+
+h3 {
+    text-decoration-line: underline;
+}
+
+.character, .skillsTools {
+    display: inline-block;
+    border: var(--main-border);
+    color: black;
+    font-size: 1.5rem;
+    font-family: Oswald;
+    word-spacing: 0.75rem;
+    padding: 0.5em;
+} 
+
+.character {
+    margin-bottom: 0.5em;
+}
+
+.skillsTools {
+    margin-bottom: 0.5em;
+}
+
+.characterList, .skillsList  {
+    display: inline; 
+}
+
+.experience {
+    border: var(--main-border);
+    color: black;
+    font-size: 2rem;
+    font-family: Oswald;
+    padding: 0.5em;
+    text-align: left;
+    margin-bottom: 0.5em;
+} 
+
+.cvList {
+    font-size: 1rem;
+    font-family: Oswald;
+    text-align: left;
+    line-height: 2rem;
+    margin-left: 1em;
+}
+
+.education-Box1, .education-Box2, .education-Box3, .education-Box4, .education-Box5, .education-Box6  {
+    background-color: hotpink;
+    border: var(--main-border);
+    font-family: Oswald;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0.5em;
+    text-decoration-line: none;
+}
+
+.externalLink {
+    color: rgb(176, 173, 173);
+    font-size: 1rem;
+    text-decoration-line: none;
+}
+
+.externalLink {
+    text-decoration-line: none;
+} 
+
+.externalLink:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* PRESENTATION / ABOUT */
+
+.presentation-container {
+    display: flex;
+    flex-direction: column;
+    order:8;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: var(--main-border);
+    color: rgb(40, 39, 39);
+    font-size: 2rem;
+    font-family: Oswald;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+} 
+
+.presentation-text, .activitiesInterests-text {
+    line-height: 3rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    font-family: Oswald;
+    padding: 0.2em;
+    text-align: left;
+    margin-bottom: 0.5em;
+    order: 9;
+} 
+
+.photo-me {
+    border: var(--main-border);
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    order: 10;
+}
+
+.activitiesInterests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    text-align: center;
+    order: 11;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+
+.contact-title {
+    margin-bottom: 0.5em;
+}
+
+.contact-lineMargin {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    border-bottom: 1px solid black;
+}
+
+.mob-contact {
+    margin-top: 1.5em;
+    margin-bottom: 0.1em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mail-contact {
+    margin-top: 0.1em;
+    font-size: 1.5rem;
+}
+
+.downloadCV-text {
+    font-family: Oswald;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration-line: underline;
+    color: hotpink;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO - GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 1.8fr 0.1fr 4fr; 
+    grid-template-areas: 
+        "header-one"
+        "web"
+        "header-two"
+        "stills"
+        "header-three"
+        "film";
+}
+
+.grid-header-one, .grid-header-two, .grid-header-three {
+    background-color: hotpink;
+    border: var(--main-border);
+    font-family: Oswald;
+    color: black;
+    margin-bottom: 2em;
+    max-height: 90px;
+}
+
+.grid-header-one {
+    grid-area: header-one;
+    margin-top: 1.25em;
+}
+
+.grid-web-portfolio {
+    display: grid;
+    grid-area: web;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "webOne"
+    "webTwo";
+}
+
+.grid-stills-portfolio {
+    display: grid;
+    grid-area: stills;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "stillsOne"
+    "stillsTwo"
+    "stillsThree";
+}
+
+.grid-film-portfolio {
+    display: grid;
+    grid-area: film;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(14, 1fr);
+    grid-template-areas:
+    "filmOne"
+    "filmTwo"
+    "filmThree"
+    "filmFour"
+    "filmFive"
+    "filmSix"
+    "filmSeven"
+    "filmEight"
+    "filmNine"
+    "filmTen"
+    "filmEleven"
+    "filmTwelve"
+    "filmThirteen"
+    "filmFourteen";
+}
+
+.webOne {
+    grid-area: webOne;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.webTwo {
+    grid-area: webTwo;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.grid-header-two {
+    grid-area: header-two;
+    margin-top: 3em;
+}
+
+.stillsOne {
+    grid-area: stillsOne;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.stillsTwo {
+    grid-area: stillsTwo;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.stillsThree {
+    grid-area: stillsThree;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.grid-header-three {
+    grid-area: header-three;
+    margin-top: 3em;
+}
+
+.filmOne {
+    grid-area: filmOne;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmTwo {
+    grid-area: filmTwo;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmThree {
+    grid-area: filmThree;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmFour {
+    grid-area: filmFour;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmFive {
+    grid-area: filmFive;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmSix {
+    grid-area: filmSix;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmSeven {
+    grid-area: filmSeven;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmEight {
+    grid-area: filmEight;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmNine {
+    grid-area: filmNine;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmTen {
+    grid-area: filmTen;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmEleven {
+    grid-area: filmEleven;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmTwelve {
+    grid-area: filmTwelve;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmThirteen {
+    grid-area: filmThirteen;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.filmFourteen {
+    grid-area: filmFourteen;
+    padding: 0em 0.25em 0em 0.25em;
+}
+
+.web-showcase, .stills-showcase, .film-showcase {
+    font-family: Oswald ;
+    font-size: 4rem;
+    margin-bottom: 0.25em;
+}
+
+.subheader-showcase {
+    font-family: Oswald;
+    font-size: 2rem;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* POP UPS */
+
+.button:hover {
+    opacity: 85%;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+  
+.overlay:target {
+    visibility: visible;
+    z-index: 250;
+    opacity: 1;
+}
+  
+.popup {
+    margin: 200px auto;
+    padding: 20px;
+    background: rgb(7, 7, 7);
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: whitesmoke;
+    font-family: Oswald;
+}
+
+.popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.popup .close:hover {
+    color: hotpink;
+}
+
+.popup .popup-content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popup-text {
+    font-family: Oswald;
+    line-height: 1.5rem;
+}
+
+.img-popup-neoncinema, .img-popup-paulevansfsf {
+    margin-top: 2em;
+}
+
+.popup_links {
+    color: hotpink;
+    text-decoration-line: none;
+}
+
+.popup_links:hover {
+    color: whitesmoke;
+}
+  
+@media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY -  767px */
+
+@media screen and (min-width: 767px) {
+
+    .navLink {
+        font-size: 3rem;
+    }
+
+    .contents-cv, .contents-about, .contents-portfolio {
+        font-size: 6rem;
+    }    
+
+    .title {
+        font-size: 9rem;
+    }
+
+    .title span {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    #contact {
+        font-size: 1.5rem;
+    }
+
+    #img-insta, #img-linked {
+        height: 60px;
+    }
+
+    .footer-mail-contact-font {
+        font-size: 1.5rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* CV PAGE -767PX*/
+    .character {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* PORTFOLIO -767PX */
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.10fr 1.8fr 0.10fr 3fr 0.10fr 5fr;
+        grid-template-areas: 
+            "header-one header-one"
+            "web web"
+            "header-two header-two"
+            "stills stills"
+            "header-three header-three"
+            "film film";
+    }
+
+    .grid-web-portfolio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "webOne webTwo";
+    }
+
+    .grid-stills-portfolio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "stillsOne stillsTwo"
+        "stillsThree stillsThree";
+    }
+
+    .grid-film-portfolio {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-areas:
+        "filmOne filmTwo"
+        "filmThree filmFour"
+        "filmFive filmSix"
+        "filmSeven filmEight"
+        "filmNine filmTen"
+        "filmEleven filmTwelve"
+        "filmThirteen filmFourteen";
+    }
+
+    .grid-header-two {
+        margin-top: 1.5em;
+    }
+}
+
+
+
+
+
+
+
+
+
+   
+/* 960px */
+
+@media screen and (min-width: 960px) {
+
+
+    /* NAV - 960PX */
+
+
+     .nav-btn {
+        display: none;
+        font-family: Oswald;
+        font-size: 2rem;
+        color: white;
+        margin: 0.75em 2em 0.75em 2em;
+    }
+
+    .horizontal-nav, .horizontal-nav-li {
+         display: inline;
+    }
+
+    .horizontal-nav {
+        margin-top: 0;
+    }
+
+    .horizontal-nav-ul{
+        text-align: right;
+        margin-right: 2em;
+    }
+
+    .navLink {
+        font-family: Oswald;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 1em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /* HEADER - 960PX */
+    header {
+        order: 2;
+    }
+
+    .title {
+        align-items: flex-start;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* CONTENTS - 960PX */
+
+    .contents-cv, .contents-about, .contents-portfolio {
+        width: 40%;
+        height: 100%;
+        margin: 0px 16px 0px 16px;
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+        border: var(--main-border);
+    }
+
+    .contents-cv-img, .contents-about-img, .contents-portfolio-img {
+        display: block;
+        width: 60%;
+        height: 100%;
+    }
+
+    .contents {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100%;
+        width: 100%;
+        margin: 16px 0px 16px 0px;
+    }
+
+    .one, .two, .three {
+        height: 30vh;
+    }
+    
+    .contents-cv {
+        margin-left: 0;
+        margin-right: 0.5em;
+        order: 1;
+    }
+
+    .contents-cv-img {
+        background: url("../img/cv.jpg")no-repeat center center; 
+        background-size: 100%; 
+        order: 2;
+    }
+
+    .contents-about {
+        margin-right: 0;
+        margin-left: 0.5;
+        order: 4;
+    }
+    
+    .contents-about-img {
+        background: url("../img/about.jpg")no-repeat center center; 
+        background-size: 100%; 
+        order: 3;
+    }
+
+    .contents-portfolio {
+        margin-left: 0;
+        margin-right: 0.5em;
+        order: 5;
+    }
+    
+    .contents-portfolio-img {
+        background: url("../img/portfolioImg.jpg")no-repeat center center; 
+        background-size: 100%; 
+        order: 6;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* FOOTER - 960PX */
+
+
+    footer {
+        flex-direction: row;
+        border: var(--main-border);
+        padding: 0;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    #contact {
+        width: 50%;
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        padding-left: 0.35em;
+        padding-bottom: 0.5em;
+        text-align: left;
+        border: 0;
+    }
+    
+    #social {
+        width: 50%;
+        border: 0;
+        margin-bottom: 0;
+        padding: 1em;
+        text-align: right;
+    }
+    
+    #img-insta  {
+        margin-top: 0.70em;
+    }
+    
+    #img-insta, #img-linked {
+        height: 50px;
+    }
+
+    #contact-main {
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+    /* CV PAGE - 960PX */
+
+    .character {
+        margin-right: 1em; 
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    } 
+
+    .skillsTool {
+        margin-left: 1em;
+    }
+
+    .education-container {
+        margin: 0.5em;
+        text-align: center;
+        order:8; 
+    }
+
+    .experience {
+        width: 100%;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; 
+        background-color: transparent;
+    }
+
+    .education-Box1 {
+        width: 100vw;
+        border: var(--main-border);
+        order: 9;
+    }
+
+    .education-Box2 {
+        width: 50%;
+        border: var(--main-border);
+        margin-right: 0.25em;
+        order: 10;
+    }
+
+    .education-Box3 {
+        width: 50%;
+        border: var(--main-border);
+        margin-left: 0.25em;
+        order: 11;
+    }
+
+    .education-Box4 {
+        width: 50%;
+        border: var(--main-border);
+        margin-right: 0.25em;
+        order: 12;
+    }
+
+    .education-Box5 {
+        width: 50%;
+        border: var(--main-border);
+        margin-left: 0.25em;
+        order: 13;
+    }
+
+    .education-Box6 {
+        width: 50%;
+        border: var(--main-border);
+        margin-left: 0.5em;
+        order: 13;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+     /* PORTFOLIO - 960PX */
+
+      .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.25fr 0.5fr 0.25fr 0.80fr 0.25fr 2fr;
+        grid-template-areas: 
+            "header-one header-one header-one"
+            "web web web"
+            "header-two header-two header-two"
+            "stills stills stills"
+            "header-three header-three header-three"
+            "film film film";
+    }
+
+     .grid-web-portfolio {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "webOne webTwo webThree";
+    }
+
+     .grid-stills-portfolio {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "stillsOne stillsTwo stillsThree";
+    }
+
+     .grid-film-portfolio {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "filmOne filmTwo filmThree"
+            "filmFour filmFive filmSix"
+            "filmSeven filmEight filmNine"
+            "filmTen filmEleven filmTwelve"
+            "filmThirteen filmFourteen filmFithteen ";
+    }
+   
+     #img-aller-three {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    .contents {
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 35vh;
+    }
+
+    .cvbox1, .cvbox2 {
+        height: auto;
+    }
+    .contents-cv, .contents-about, .contents-portfolio {
+        width: 40%;
+        height: 100%;
+        font-size: 6rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #contact {
+        font-size: 1.5rem;
+    }
+
+    #img-insta  {
+        margin-top: 0.75em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* PRESENTATION - 1200PX */
+
+    .presentation-container {
+        display: flex;
+        flex-direction: row;
+        order:8;
+    }
+
+    aside {
+        flex-direction: row;
+        padding-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .photo-me {
+        width: 90%;
+        max-height: 100%;
+        margin-left: 0.5em;
+        order: 11;
+    }
+
+    .activitiesInterests {
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        order: 10;
+    }
+
+    main {
+        width: 100%;
+    }
+    
+    .presentation {
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+        height: 100%;
+    }
+
+
+
+
+
+
+/* PORTFOLIO - 1200PX */
+
+    .grid-container {
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 0.80fr 0.22fr 2fr;
+        /* grid-template-areas: 
+            "header-one header-one header-one"
+            "web web web"
+            "header-two header-two header-two"
+            "stills stills stills"
+            "header-three header-three header-three"
+            "film film film"; */
+    }
+
+
+
+
+
+
+
+
+    /* CONTACT -1200PX */
+
+    .presentation-container {
+        display: flex;
+        flex-direction: column;
+        order:8;
+    }
+    
+}
