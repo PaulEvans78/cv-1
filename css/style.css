@@ -680,11 +680,23 @@ aside {
     font-size: 2rem;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
-
-
 }
 
+.web-thumbs {
+    width: 100%;
+}
 
+#img-paulevans-fsf {
+    width: 80%;
+}
+
+.stills-thumbs {
+    width: 100%;
+}
+
+.film-thumbnails {
+    width: 100%;
+}
 
 
 
@@ -758,8 +770,9 @@ aside {
     line-height: 1.5rem;
 }
 
-.img-popup-neoncinema, .img-popup-paulevansfsf {
+.img-popup-neoncinema, .img-popup-paulevansfsf, .img-popup-paulevansCV {
     margin-top: 2em;
+    width: 50%;
 }
 
 .popup_links {
