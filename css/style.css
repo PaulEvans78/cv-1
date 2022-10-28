@@ -429,6 +429,10 @@ aside {
     order: 10;
 }
 
+.img-me {
+    width: 100%;
+}
+
 .activitiesInterests {
     display: flex;
     flex-direction: column;
