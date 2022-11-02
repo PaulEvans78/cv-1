@@ -1,10 +1,12 @@
+//MODAL
+
 // Get the modal
 const modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
+// button that opens the modal
 const btn = document.getElementById("codeJamBtn");
 
-// Get the <span> element that closes the modal
+// <span> element that closes the modal
 const span = document.getElementsByClassName("closeModal")[0];
 
 // When the user clicks on the button, open the modal
