@@ -42,6 +42,53 @@
 
             <main class="grid-container">
 
+                <div class="grid-latest-header">
+                    <h1 class="changeColor">LATEST WORK</h1>
+                </div>
+
+                <div class="grid-latest-work">
+                    <section id="codeJamBtn"><img class="latestWork-thumbs" src="img/codeJam.png" alt="Code Jam"></section>
+                </div>
+
+
+                            <!-- MODAL -->
+                            <div id="myModal" class="modal">
+
+                                
+                                <div class="modal-content">
+                                <span class="closeModal">&times;</span>
+                                </div>
+                                        <div class="appBody">
+
+                                            <div class ="appContents">
+                                        
+                                                <div class="gameName">
+                                                    <h1 class="gameHeaderFont">Rock, Paper, Scissors</h1>
+                                                </div>
+
+                                                <button class="btn" id="rock">Rock</button>
+                                                <button class="btn" id="paper">Paper</button> 
+                                                <button class="btn" id="scissors">Scissors</button>
+
+                                                    <div class="gameInfo">
+
+                                                        <h3 class="gameFont">User Choice:</h3>
+                                                        <div class="gameFont" id="userchoice"></div>
+
+                                                        <h3 class="gameFont">Computer Choice:</h3>
+                                                        <div class="gameFont" id="computerchoice"></div>
+
+                                                        <h3 class="gameFont">Result:</h3>
+                                                        <div class="gameFont" id="result"></div>
+                                                    </div>
+
+                                                    <footer class="appFooter">Press any button to try again</footer>
+                                            </div>
+
+                                        </div>
+                                
+                            </div>
+
                 <div class="grid-header-one">
                     <h1>UX/UI/FRONTEND</h1>
                 </div>
@@ -104,7 +151,66 @@
                 </div>
 
                 <div class="grid-stills-portfolio">
-                    <a class="button" href="#popup3"><section class="stills-showcase stillsOne">
+
+                    <div class="slideShowContainer">
+
+                        <!-- Full-width images with number text -->
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/aller_print_01.jpg" alt="AllerMedia">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/aller_print_02.jpg" alt="AllerMedia">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/aller_print_03.jpg" alt="AllerMedia">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/gael1.jpg" alt="Gael">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/farrow1.jpg" alt="Farrow">
+                        </div>
+                    
+                        <div class="mySlides">
+                            <img class="slideImg" src="img/tree1.jpg" alt="Tree">
+                        </div>
+                    
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <!-- Image text -->
+                        <div class="caption-container">
+                        <p id="caption"></p>
+                        </div>
+                    
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="img/aller_print_01.jpg" onclick="currentSlide(1)" alt="Aller Media Summer Campaign 2022">
+                        </div>
+                        <div class="column"> 
+                            <img class="demo cursor" src="img/aller_print_02.jpg" onclick="currentSlide(2)" alt="Aller Media Summer Campaign 2022">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/aller_print_03.jpg" onclick="currentSlide(3)" alt="Aller Media Summer Campaign 2022">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/gael1.jpg" onclick="currentSlide(4)" alt="Gael Studio Shoot">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="img/farrow1.jpg" onclick="currentSlide(5)" alt="Local Girls, Kenya">
+                        </div> 
+                        <div class="column">
+                            <img class="demo cursor" id="treeImg" src="img/tree1.jpg" onclick="currentSlide(6)" alt="Desert Tree California">
+                        </div>
+                        </div>
+                    </div>
+                    <!-- <a class="button" href="#popup3"><section class="stills-showcase stillsOne">
                         <h5 class="subheader-showcase">Aller Media</h5>
                         <img class="stills-thumbs" id="img-aller-one" src="img/aller_print_01.jpg"  alt="Aller Media"></section></a>
 
@@ -114,11 +220,11 @@
 
                     <a class="button" href="#popup3"><section class="stills-showcase stillsThree">
                         <h5 class="subheader-showcase">Aller Media</h5>
-                        <img class="stills-thumbs" id="img-aller-three" src="img/aller_print_03.jpg"  alt="Aller Media"></section></a>
+                        <img class="stills-thumbs" id="img-aller-three" src="img/aller_print_03.jpg"  alt="Aller Media"></section></a> -->
                 </div>
 
                 <!-- POPUP3 -->
-                <div id="popup3" class="overlay">
+                <!-- <div id="popup3" class="overlay">
                     <div class="popup">
                         <h2>Aller Media - Summer Campaign</h2>
                         <a class="close" href="#">&times;</a>
@@ -129,7 +235,7 @@
                             <a class="popup_links" href="https://paulevans-dop.com/com_player3_index.html">See the film here.</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="grid-header-three">
                     <h1>CINEMATOGRAPHY</h1>
@@ -405,5 +511,10 @@
 
         </div>
     </body>
+
+    <script src="js/slideShow.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/app.js"></script>
+
 
 </html>
