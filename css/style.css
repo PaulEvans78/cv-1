@@ -451,9 +451,6 @@ aside {
 
 
 
-
-
-
 /* CONTACT */
 
 .contact-title {
@@ -501,8 +498,10 @@ aside {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 1fr 0.1fr 1.8fr 0.1fr 4fr; 
+    grid-template-rows: 0.1fr 0.1fr 0.1fr 1fr 0.1fr 0.6fr 0.1fr 4fr; 
     grid-template-areas: 
+        "latestWork-header"
+        "latestWork"
         "header-one"
         "web"
         "header-two"
@@ -511,7 +510,7 @@ aside {
         "film";
 }
 
-.grid-header-one, .grid-header-two, .grid-header-three {
+.grid-header-one, .grid-header-two, .grid-header-three, .grid-latest-header {
     background-color: hotpink;
     border: var(--main-border);
     font-family: Oswald;
@@ -520,9 +519,47 @@ aside {
     max-height: 90px;
 }
 
+.grid-latest-header {
+    grid-area: latestWork-header;
+    margin-top: 1.25em;
+    margin-bottom: 0;
+}
+
+.changeColor {
+    animation-name: latestWorkHeader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
+}
+
+@keyframes latestWorkHeader {
+    from {color: black;}
+    to {color: hotpink;}
+  }
+
 .grid-header-one {
     grid-area: header-one;
     margin-top: 1.25em;
+}
+
+.grid-latest-work {
+    display: grid;
+    grid-area: latestWork;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "latestWork";
+    justify-items: center;
+}
+
+.latestWork-thumbs {
+    width: 50%;
+    margin: 0.5em;
+}
+
+.latestWork-thumbs:hover {
+    width: 60%;
 }
 
 .grid-web-portfolio {
@@ -539,11 +576,9 @@ aside {
     display: grid;
     grid-area: stills;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
-    "stillsOne"
-    "stillsTwo"
-    "stillsThree";
+    "slideshow";
 }
 
 .grid-film-portfolio {
@@ -568,6 +603,7 @@ aside {
     "filmFourteen";
 }
 
+
 .webOne {
     grid-area: webOne;
     padding: 0em 0.25em 0em 0.25em;
@@ -583,18 +619,8 @@ aside {
     margin-top: 3em;
 }
 
-.stillsOne {
-    grid-area: stillsOne;
-    padding: 0em 0.25em 0em 0.25em;
-}
-
-.stillsTwo {
-    grid-area: stillsTwo;
-    padding: 0em 0.25em 0em 0.25em;
-}
-
-.stillsThree {
-    grid-area: stillsThree;
+.slideshow {
+    grid-area: slideshow;
     padding: 0em 0.25em 0em 0.25em;
 }
 
@@ -708,6 +734,161 @@ aside {
 
 
 
+
+
+
+/* SLIDESHOW */
+
+  .slideShowContainer{
+    position: relative;
+    background-color: black;
+    padding-top: 0.75em;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .prev {
+    left: 5%;
+  }
+  
+  
+  .next {
+    right: 5%;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: hotpink;
+  }
+  
+  .caption-container {
+    font-family: Oswald;
+    text-align: center;
+    background-color: #222;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+    width: 80%;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .slideImg {
+    width: 95%
+  }
+
+  #treeImg {
+    width: 88%;
+  }
+
+
+
+
+  
+
+
+  /* MODAL */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 100; 
+    left:0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+  } 
+  
+  .modal-content {
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 8px;
+    width: 80%; 
+  }
+  
+  .closeModal {
+    position: fixed;
+    left:85%;
+    top: 5%;
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeModal:hover,
+  .closeModal:focus {
+    color: hotpink;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .gameHeaderFont, .gameFont, .appFooter {
+    font-family: Oswald;
+  }
+
+  .gameFont, .appFooter {
+    color: black;
+  }
+
+  #rock, #paper, #scissors {
+    font-family: Oswald;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
 /* POP UPS */
 
 .button:hover {
@@ -803,6 +984,119 @@ aside {
 
 
 
+/* APP- ROCK, PAPER, SCISSORS */
+
+.appBody {
+    background-image: url("../img/background.png");
+    background-repeat:repeat;
+    background-color: black;
+    padding: 20px;
+}
+
+.appContents {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 1fr; 
+    grid-template-areas: 
+        "header header"
+        "rock paper"
+        "scissors results"
+        "footer footer";
+    width: 90vw;
+    height: 70vh;
+    padding: 20px;
+    background-color: rgba(28, 27, 27, 0.967);
+    border-radius: 8px;
+}
+
+.btn {
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    border: 2px solid black;
+    margin: 1em 1em 1em 1em;
+}
+
+.gameName {
+    color: white;
+    grid-area: header;
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+#rock {
+    background-image: url("../img/rock.png");
+    grid-area: rock;
+    justify-self: center;
+}
+
+#paper {
+    background-image: url("../img/papper.png");
+    grid-area: paper;
+    justify-self: center;
+}
+
+#scissors {
+    background-image: url("../img/scissors.png");
+    grid-area: scissors;
+    justify-self: center;
+}
+
+.gameInfo {
+    background-color: rgb(255, 233, 1);
+    grid-area: results;
+    justify-self: center;
+    border-radius: 8px;
+    width: 85%;
+    max-height: 100%;
+    border: 2px solid black;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.appFooter {
+    background-color: rgb(187, 186, 186);
+    grid-area: footer;
+    grid-column: 1/3;
+    justify-self: center;
+    margin-top: 2em;
+    padding: 0.5em;
+    border-radius: 4px;
+}
+
+h3 {
+    margin:10px 0;
+}
+
+
+
+
+
+
+
+
+/* APP- ROCK, PAPER, SCISSORS - 700px */
+
+@media screen and (min-width: 700px) {
+
+    .appContents {
+        min-width: 60vw;
+        max-width: 70vw;
+        height: 80vh;
+    }
+
+    .closeModal {
+        left:80%;
+      }
+}
+
+
+
+
+
 
 
 
@@ -869,8 +1163,10 @@ aside {
     /* PORTFOLIO -767PX */
     .grid-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.10fr 1.8fr 0.10fr 3fr 0.10fr 5fr;
+        grid-template-rows: 0.10fr 0.10fr 0.10fr 1.8fr 0.10fr 2fr 0.10fr 5fr;
         grid-template-areas: 
+            "latestWork-header latestWork-header"
+            "latestWork latestWork"
             "header-one header-one"
             "web web"
             "header-two header-two"
@@ -884,14 +1180,6 @@ aside {
         grid-template-rows: 1fr;
         grid-template-areas:
         "webOne webTwo";
-    }
-
-    .grid-stills-portfolio {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-template-areas:
-        "stillsOne stillsTwo"
-        "stillsThree stillsThree";
     }
 
     .grid-film-portfolio {
@@ -910,7 +1198,31 @@ aside {
     .grid-header-two {
         margin-top: 1.5em;
     }
+
+    .slideImg {
+        width: 60%;
+    }
 }
+
+
+
+
+
+
+/* APP- ROCK, PAPER, SCISSORS - 900PX */
+
+@media screen and (min-width: 900px) {
+
+    .appContents {
+        max-width: 50vw;
+        height: 90vh;
+    }
+
+    .closeModal {
+        left:75%;
+      }
+}
+
 
 
 
@@ -956,9 +1268,6 @@ aside {
         color: white;
         margin-left: 1em;
     }
-
-
-
 
 
 
@@ -1197,8 +1506,10 @@ aside {
 
       .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.25fr 0.5fr 0.25fr 0.80fr 0.25fr 2fr;
+        grid-template-rows: 0.1fr 0.25fr 0.25fr 0.5fr 0.25fr 0.80fr 0.25fr 2fr;
         grid-template-areas: 
+            "latestWork-header latestWork-header latestWork-header"
+            "latestWork latestWork latestWork"
             "header-one header-one header-one"
             "web web web"
             "header-two header-two header-two"
@@ -1214,13 +1525,6 @@ aside {
             "webOne webTwo webThree";
     }
 
-     .grid-stills-portfolio {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
-        grid-template-areas:
-            "stillsOne stillsTwo stillsThree";
-    }
-
      .grid-film-portfolio {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: repeat(5, 1fr);
@@ -1231,14 +1535,12 @@ aside {
             "filmTen filmEleven filmTwelve"
             "filmThirteen filmFourteen filmFithteen ";
     }
-   
-     #img-aller-three {
-        width: 100%;
+
+    .slideImg {
+        width: 50%;
     }
 
 }
-
-
 
 
 
@@ -1276,8 +1578,6 @@ aside {
     #img-insta  {
         margin-top: 0.75em;
     }
-
-
 
 
 
@@ -1333,17 +1633,12 @@ aside {
 
 
 
+
+
 /* PORTFOLIO - 1200PX */
 
     .grid-container {
         grid-template-rows: 0.2fr 0.5fr 0.2fr 0.80fr 0.22fr 2fr;
-        /* grid-template-areas: 
-            "header-one header-one header-one"
-            "web web web"
-            "header-two header-two header-two"
-            "stills stills stills"
-            "header-three header-three header-three"
-            "film film film"; */
     }
 
 
@@ -1361,4 +1656,17 @@ aside {
         order:8;
     }
     
+
+
+
+    /* APP- 1200PX */
+
+    .appContents {
+        max-width: 40vw;
+       min-width: 40vw;
+    }
+
+    .closeModal {
+        left:66%;
+      }
 }
