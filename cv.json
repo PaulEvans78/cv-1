@@ -1,0 +1,190 @@
+    {
+        "self": [
+            {
+                "heading": "Charateristics:", 
+                "text": "Calm, Methodical, Creative, Willpower, Positive, Social, Entreprenurial, Action oriented"
+            }
+            ],
+
+            "skills": [
+                {
+                    "heading": "skills and Tools:", 
+                    "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
+                }
+                ],
+
+        "webExperience": [
+            {
+                "heading": "Web Design Experience: ",
+                "text": "2022 - to date. Student @ Chas Academy, UX/UI with Frontend competence."
+            },
+            { 
+                "heading": "Paul Evans FSF: ",
+                "text": "A website to showcase my work as a cinematographer"
+            },
+            {
+                "heading": "Neon Cinema: ",
+                "text": "A school examination project from ChangeMaker Education"
+            }
+        ],
+
+        "filmExperience": [
+            {
+                "heading": "Latest TV Projects: ",
+                "text": "2006 - to date. Cinematographer, freelance."
+            },
+            { 
+                "heading": "Streams 2: ",
+                "text": "Production Company: Realistor, SVT"
+            },
+            {
+                "heading": "Vi Forever: ",
+                "text": "Production Company: Salli productions, SVT"
+            },
+            {
+                "heading":  "The Last Journey of the Vikings",
+                "text": "Production Company: Mopar Studios, Viaplay"
+            }
+        ],
+
+        "comExperience": [
+            {
+                "heading": "Selected Commercial Projects: "
+            },
+            { 
+                "heading": "Brands: Call of Duty, AllerMedia",
+                "text": "Production Company: Fanny o Alexander"
+            },
+            { 
+                "heading": "Brands: Renault, Forex, Barncancerfonden, fonus",
+                "text": "Production Company: FLX"
+            },
+            { 
+                "heading": "Brands: Coop with Lotta Lundgren",
+                "text": "Production Company: Savvy Pictures"
+            },
+            { 
+                "heading": "Brands: Narta",
+                "text": "Production Company: Excuse My french"
+            },
+            { 
+                "heading": "Brands: Apella One",
+                "text": "Production Company: U Itch I Scratch"
+            },
+            {
+                "heading": "Stadium, Gant",
+                "text": "Made to Order"
+            },
+            { 
+                "heading": "Brands: Fruit-Tella, Westlands Safe Lawn, FTPE, IKEA",
+                "text": "Production Company: Milford Film Studios"
+            },
+            { 
+                "heading": "Brands: Sony Xperia",
+                "text": "ProductionCompany: Indio"
+            },
+            { 
+                "heading": "Brands: Volvo, Gröna Lund, Triss, Boxer, Honda, Lambi, Stryktipset",
+                "text": "ProductionCompany: Flodell Film"
+            },
+            { 
+                "heading": "Brands: Doritos Hotel 626",
+                "text": "Production Company: B-Reel Films"
+            },
+            { 
+                "heading": "Brands: Llyods Apotek, Burger King, ICA Maxi, IVT",
+                "text": "ProductionCompany: Ligist Film"
+            },
+            { 
+                "heading": "Brands: ST1, Arla",
+                "text": "Production Company: Esteban"
+            }
+        ],
+
+        "mvExperience": [
+            {
+                "heading": "Selected Music Promo Projects"
+            },
+            { 
+                "heading":  "Ghost",
+                "project": "A Hunters Moon",
+                "text": "Lomo Vista Recordings"
+            },
+            { 
+                "heading":  "Katy Perry",
+                "project": "Roar Promos",
+                "text": "Diktator"
+            },
+            { 
+                "heading":  "Darin",
+                "project": "Superstar, Can't Stay Away, Identitetslös",
+                "text": "Rice n Beans Films"
+            },
+            { 
+                "heading":  "Albin Lee Meldau",
+                "project": "Josefin",
+                "text": "Rice n Beans Films"
+            },
+            { 
+                "heading":  "MØ",
+                "project": "XXX ft. Diplo",
+                "text": "Diktator"
+            },
+            { 
+                "heading":  "Mando Diao",
+                "project": "Black Saturday, Sweet Wet Dreams",
+                "text": "Diktator"
+            },
+            { 
+                "heading":  "Viagra Boys",
+                "project": "Sports, Just Like You",
+                "text": "Diktator"
+            },
+            { 
+                "heading":  "Ansiktet",
+                "project": "Fyra Våningar Upp",
+                "text": "Diktator"
+            }
+        ],
+
+        "education1": [
+            {
+                "school": "Chas Acadmey",
+                "heading": "UX/UI with Frontend",
+                "date": "2022 to date"
+            }
+        ],
+
+        "education2": [
+            {
+                "school": "ChangeMaker Education",
+                "heading": "Frontend Developer",
+                "date": "2021/2022"
+            }
+        ],
+
+        "education3": [
+            {
+                "school": "Jensen Komvux",
+                "heading": "Programmering 1",
+                "date": "2021"
+            }
+        ],
+
+        "education4": [
+        {
+            "school": "The Bournemouth Film School",
+            "heading": "Film and Television HND",
+            "date": "1999"
+        }
+        ],
+
+        "education5": [
+        {
+            "school": "Alton College",
+            "heading": "A-Level. Design and Technology & Communication Studies",
+            "date": "1997"
+        }
+            
+        ]
+    }
