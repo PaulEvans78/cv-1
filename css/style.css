@@ -372,7 +372,13 @@ h3 {
     color: black;
 }
 
+#jsoncharacter, #jsonSkills, #jsonweb, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
+    list-style: none;
+}
 
+#jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
+    padding:1em;
+}
 
 
 
