@@ -376,6 +376,10 @@ h3 {
     list-style: none;
 }
 
+#jsonweb, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
+    line-height: 3rem;
+}
+
 #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
     padding:1em;
 }
