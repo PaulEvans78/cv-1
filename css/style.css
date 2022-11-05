@@ -372,11 +372,11 @@ h3 {
     color: black;
 }
 
-#jsoncharacter, #jsonSkills, #jsonweb, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
+#jsoncharacter, #jsonSkills, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
     list-style: none;
 }
 
-#jsonweb, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
+#jsonExperience, #jsonEdOne, #jsonEdTwo, #jsonEdThree, #jsonEdFour, #jsonEdFive {
     line-height: 3rem;
 }
 
@@ -384,6 +384,9 @@ h3 {
     padding:1em;
 }
 
+#jsonExperience {
+    font-size: 1.5rem;
+}
 
 
 
