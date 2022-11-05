@@ -5,10 +5,14 @@ async function getCv() {
     let response = await fetch(url);
     const selfList = document.getElementById("jsoncharacter")
     const skillsList = document.getElementById("jsonSkills")
-    const webList = document.getElementById("jsonweb")
-    const filmList = document.getElementById("jsonweb")
-    const comList = document.getElementById("jsonweb")
-    const mvList = document.getElementById("jsonweb")
+    const webHeader = document.getElementById("jsonExperience")
+    const webList = document.getElementById("jsonExperience")
+    const filmHeader = document.getElementById("jsonExperience")
+    const filmList = document.getElementById("jsonExperience")
+    const comHeader = document.getElementById("jsonExperience")
+    const comList = document.getElementById("jsonExperience")
+    const mvHeader = document.getElementById("jsonExperience")
+    const mvList = document.getElementById("jsonExperience")
     const edOneList = document.getElementById("jsonEdOne")
     const edTwoList = document.getElementById("jsonEdTwo")
     const edThreeList = document.getElementById("jsonEdThree")
@@ -24,14 +28,26 @@ async function getCv() {
         for (const item of data.skills){
             createSkillsLi(skillsList, item.heading, item.text)
         }
+        for (const item of data.webtitle){
+            createWebHLi(webHeader, item.heading)
+        }
         for (const item of data.webExperience){
             createWebLi(webList, item.heading, item.text)
+        }
+        for (const item of data.filmtitle){
+            createFilmHLi(filmHeader, item.heading)
         }
         for (const item of data.filmExperience){
             createFilmLi(filmList, item.heading, item.text)
         }
+        for (const item of data.comtitle){
+            createComHLi(comHeader, item.heading)
+        }
         for (const item of data.comExperience){
             createComLi(comList, item.heading, item.text)
+        }
+        for (const item of data.mvtitle){
+            createMvHLi(mvHeader, item.heading)
         }
         for (const item of data.mvExperience){
             createMvLi(mvList, item.heading, item.project, item.text)
@@ -70,10 +86,24 @@ function createSkillsLi(skillsList, heading, text){
     skillsList.appendChild(li)
 }
 
+function createWebHLi(webHeader, heading){
+    const li = document.createElement('li')
+    li.innerText = heading
+    li.classList.add("pinkStyle");
+    webHeader.appendChild(li)
+}
+
 function createWebLi(webList, heading, text){
     const li = document.createElement('li')
     li.innerText = heading + " " + text
     webList.appendChild(li)
+}
+
+function createFilmHLi(filmHeader, heading){
+    const li = document.createElement('li')
+    li.innerText = heading
+    li.classList.add("pinkStyle");
+    filmHeader.appendChild(li)
 }
 
 function createFilmLi(filmList, heading, text){
@@ -82,10 +112,24 @@ function createFilmLi(filmList, heading, text){
     filmList.appendChild(li)
 }
 
+function createComHLi(comHeader, heading){
+    const li = document.createElement('li')
+    li.innerText = heading
+    li.classList.add("pinkStyle");
+    comHeader.appendChild(li)
+}
+
 function createComLi(comList, heading, text){
     const li = document.createElement('li')
     li.innerText = heading + " " + text
     comList.appendChild(li)
+}
+
+function createMvHLi(mvHeader, heading){
+    const li = document.createElement('li')
+    li.innerText = heading
+    li.classList.add("pinkStyle");
+    mvHeader.appendChild(li)
 }
 
 function createMvLi(mvList, heading, project, text){
