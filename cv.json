@@ -7,20 +7,26 @@
             ],
 
         "skills": [
-                {
-                    "heading": "Skills and Tools:", 
-                    "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
-                }
-                ],
+            {
+                "heading": "Skills and Tools:", 
+                 "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
+            }
+        ],
+
+        "webtitle": [
+            {
+                "heading": "Web Design Experience: "
+            }
+        ],
 
         "webExperience": [
             {
-                "heading": "Web Design Experience: ",
-                "text": "2022 - to date. Student @ Chas Academy, UX/UI with Frontend competence."
+                "heading": "Student @ Chas Academy, UX/UI with Frontend competence.",
+                "text": " 2022 - to date."
             },
             { 
                 "heading": "Paul Evans FSF: ",
-                "text": "A website to showcase my work as a cinematographer"
+                "text": " Built a website to showcase my work as a cinematographer"
             },
             {
                 "heading": "Neon Cinema: ",
@@ -28,11 +34,13 @@
             }
         ],
 
-        "filmExperience": [
+        "filmtitle": [
             {
-                "heading": "Latest TV Projects: ",
-                "text": "2006 - to date. Cinematographer, freelance."
-            },
+                "heading": "2006 - to date. Cinematographer, freelance. - Latest TV Projects."
+            }
+        ],
+
+        "filmExperience": [
             { 
                 "heading": " Project: Streams 2: ",
                 "text": "Production Company: Realistor, SVT"
@@ -47,10 +55,13 @@
             }
         ],
 
-        "comExperience": [
+        "comtitle": [
             {
                 "heading": "Selected Commercial Projects: "
-            },
+            }
+        ],
+
+        "comExperience": [
             { 
                 "heading": "Brands: Call of Duty, AllerMedia",
                 "text": "Production Company: Fanny o Alexander"
@@ -101,10 +112,13 @@
             }
         ],
 
-        "mvExperience": [
+        "mvtitle": [
             {
                 "heading": "Selected Music Promo Projects"
-            },
+            }
+        ],
+
+        "mvExperience": [
             { 
                 "heading":  "Artist: Ghost",
                 "project": "Project: A Hunters Moon",
