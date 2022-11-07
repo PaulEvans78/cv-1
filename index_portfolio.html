@@ -46,11 +46,14 @@
                     <h1 class="changeColor">LATEST WORK</h1>
                 </div>
 
+
                 <div class="grid-latest-work">
                     <section id="codeJamBtn"><img class="latestWork-thumbs" src="img/codeJam.png" alt="Code Jam"></section>
                     <section id="gitHubApi">
-                        <h1 class="repoHeader">MY gitHub REPO</h1>
-                        
+                        <h1 class="repoHeader">MY gitHub REPOS</h1>
+                        <button onclick="load()" class="fetch_button">Fetch</button>
+                        <div class="repoHeader hide" id="gitRepos">Loading</div>
+                        <!-- <div id="gitReposEmpty"></div> -->
                     </section>
                 </div>
 
