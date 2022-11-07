@@ -565,6 +565,8 @@ aside {
     "latestWork"
     "latestWorkapi";
     justify-items: center;
+    border: 1px solid black;
+    margin-top: 0.5em;
 }
 
 .latestWork-thumbs {
@@ -581,15 +583,34 @@ aside {
     color: black;
 }
 
-.gitHubApi {
+#gitHubApi {
     grid-area: latestWorkapi;
+    /* margin-top: 1.5em; */
+    /* padding: 1em; */
+    /* min-width:10%; */
+    border-top: 1px solid black;
 }
 
 .gitHubStyle {
     font-family: Oswald;
     color: black;
+    font-size: 0.75rem;
     line-height: 2rem;
-    padding-bottom: 2em;
+    padding: 1em 1em 2em 1em;
+    /* padding-bottom: 2em; */
+}
+
+.hide {
+        display: none;
+}
+
+
+.fetch_button {
+    font-family: Oswald;
+    background-color: hotpink;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    margin-bottom: 1em;
 }
 
 .grid-web-portfolio {
@@ -757,9 +778,6 @@ aside {
 .film-thumbnails {
     width: 100%;
 }
-
-
-
 
 
 
@@ -1035,7 +1053,7 @@ aside {
         "scissors results"
         "footer footer";
     width: 90vw;
-    height: 70vh;
+    height: 80vh;
     padding: 20px;
     background-color: rgba(28, 27, 27, 0.967);
     border-radius: 8px;
