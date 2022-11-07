@@ -1,10 +1,15 @@
+function load () {
+
+    element = document.getElementById("gitRepos");
+    element.classList.toggle("hide");
+
 let url = "https://api.github.com/users/PaulEvans78/repos"
 
 async function  getrepo() {
 
     let response = await fetch(url);
 
-    const repoList = document.getElementById("gitHubApi")
+    const repoList = document.getElementById("gitRepos")
 
     if(response.ok) {
         let data = await response.json();
@@ -27,3 +32,7 @@ async function  getrepo() {
     }
 
     getrepo();
+
+
+}
+
