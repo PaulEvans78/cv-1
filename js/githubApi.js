@@ -1,0 +1,29 @@
+let url = "https://api.github.com/users/PaulEvans78/repos"
+
+async function  getrepo() {
+
+    let response = await fetch(url);
+
+    const repoList = document.getElementById("gitHubApi")
+
+    if(response.ok) {
+        let data = await response.json();
+        console.log(data);
+        for (const item of data){
+            createRepoLi(repoList, item.name, item.url, item.description)
+        }
+
+    } else {
+
+        console.log("HTTP-Error: " + response.status);
+        }
+    }
+
+    function createRepoLi(repoList, name, url, description){
+        const li = document.createElement('li')
+        li.innerText = name + "\n " + url + "\n " + description
+        li.classList.add("gitHubStyle");
+        repoList.appendChild(li)
+    }
+
+    getrepo();
