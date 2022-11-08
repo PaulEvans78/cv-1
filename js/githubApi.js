@@ -3,6 +3,8 @@ function load () {
     element = document.getElementById("gitRepos");
     element.classList.toggle("hide");
 
+    const loadingStatus = document.querySelector('#gitRepos')
+
 let url = "https://api.github.com/users/PaulEvans78/repos"
 
 async function  getrepo() {
@@ -13,6 +15,7 @@ async function  getrepo() {
 
     if(response.ok) {
         let data = await response.json();
+        loadingStatus.innerText = " "
         console.log(data);
         for (const item of data){
             createRepoLi(repoList, item.name, item.url, item.description)
@@ -35,4 +38,3 @@ async function  getrepo() {
 
 
 }
-
