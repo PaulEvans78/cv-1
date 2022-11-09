@@ -1,26 +1,18 @@
     {
         "self": [
             {
-                "heading": "Charateristics:", 
                 "text": "Calm, Methodical, Creative, Willpower, Positive, Social, Entreprenurial, Action oriented"
             }
             ],
 
         "skills": [
             {
-                "heading": "Skills and Tools:", 
                  "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
             }
         ],
 
-        "webtitle": [
-            {
-                "heading": "Web Design Experience: "
-            }
-        ],
-
         "webExperience": [
-            {
+            {   
                 "heading": "Student @ Chas Academy, UX/UI with Frontend competence.",
                 "text": " 2022 - to date."
             },
@@ -34,12 +26,6 @@
             }
         ],
 
-        "filmtitle": [
-            {
-                "heading": "2006 - to date. Cinematographer, freelance. - Latest TV Projects."
-            }
-        ],
-
         "filmExperience": [
             { 
                 "heading": " Project: Streams 2: ",
@@ -50,113 +36,101 @@
                 "text": "Production Company: Salli productions, SVT"
             },
             {
-                "heading":  "Project: The Last Journey of the Vikings",
+                "heading":  "Project: The Last Journey of the Vikings:",
                 "text": "Production Company: Mopar Studios, Viaplay"
-            }
-        ],
-
-        "comtitle": [
-            {
-                "heading": "Selected Commercial Projects: "
             }
         ],
 
         "comExperience": [
             { 
-                "heading": "Brands: Call of Duty, AllerMedia",
+                "heading": "Brands: Call of Duty, AllerMedia.",
                 "text": "Production Company: Fanny o Alexander"
             },
             { 
-                "heading": "Brands: Renault, Forex, Barncancerfonden, fonus",
+                "heading": "Brands: Renault, Forex, Barncancerfonden, fonus.",
                 "text": "Production Company: FLX"
             },
             { 
-                "heading": "Brands: Coop with Lotta Lundgren",
+                "heading": "Brands: Coop with Lotta Lundgren.",
                 "text": "Production Company: Savvy Pictures"
             },
             { 
-                "heading": "Brands: Narta",
+                "heading": "Brands: Narta.",
                 "text": "Production Company: Excuse My french"
             },
             { 
-                "heading": "Brands: Apella One",
+                "heading": "Brands: Apella One.",
                 "text": "Production Company: U Itch I Scratch"
             },
             {
-                "heading": "Brands: Stadium, Gant",
+                "heading": "Brands: Stadium, Gant.",
                 "text": "Made to Order"
             },
             { 
-                "heading": "Brands: Fruit-Tella, Westlands Safe Lawn, FTPE, IKEA",
+                "heading": "Brands: Fruit-Tella, Westlands Safe Lawn, FTPE, IKEA.",
                 "text": "Production Company: Milford Film Studios"
             },
             { 
-                "heading": "Brands: Sony Xperia",
+                "heading": "Brands: Sony Xperia.",
                 "text": "ProductionCompany: Indio"
             },
             { 
-                "heading": "Brands: Volvo, Gröna Lund, Triss, Boxer, Honda, Lambi, Stryktipset",
+                "heading": "Brands: Volvo, Gröna Lund, Triss, Boxer, Honda, Lambi, Stryktipset.",
                 "text": "ProductionCompany: Flodell Film"
             },
             { 
-                "heading": "Brands: Doritos Hotel 626",
+                "heading": "Brands: Doritos Hotel 626.",
                 "text": "Production Company: B-Reel Films"
             },
             { 
-                "heading": "Brands: Llyods Apotek, Burger King, ICA Maxi, IVT",
+                "heading": "Brands: Llyods Apotek, Burger King, ICA Maxi, IVT.",
                 "text": "ProductionCompany: Ligist Film"
             },
             { 
-                "heading": "Brands: ST1, Arla",
+                "heading": "Brands: ST1, Arla.",
                 "text": "Production Company: Esteban"
-            }
-        ],
-
-        "mvtitle": [
-            {
-                "heading": "Selected Music Promo Projects"
             }
         ],
 
         "mvExperience": [
             { 
-                "heading":  "Artist: Ghost",
-                "project": "Project: A Hunters Moon",
+                "heading":  "Artist: Ghost.",
+                "project": "Project: A Hunters Moon.",
                 "text": "Production Company: Lomo Vista Recordings"
             },
             { 
-                "heading":  "Artist: Katy Perry",
-                "project": "Project: Roar Promos",
+                "heading":  "Artist: Katy Perry.",
+                "project": "Project: Roar Promos.",
                 "text": "Production Company: Diktator"
             },
             { 
-                "heading":  "Artist:Darin",
-                "project": "Project: Superstar, Can't Stay Away, Identitetslös",
+                "heading":  "Artist:Darin.",
+                "project": "Project: Superstar, Can't Stay Away, Identitetslös.",
                 "text": "Production Company: Rice n Beans Films"
             },
             { 
-                "heading":  "Artist: Albin Lee Meldau",
-                "project": "Project: Josefin",
+                "heading":  "Artist: Albin Lee Meldau.",
+                "project": "Project: Josefin.",
                 "text": "Production Company: Rice n Beans Films"
             },
             { 
-                "heading":  "Artist: MØ",
-                "project": "Project: XXX ft. Diplo",
+                "heading":  "Artist: MØ.",
+                "project": "Project: XXX ft. Diplo.",
                 "text": "Production Company: Diktator"
             },
             { 
-                "heading":  "Artist: Mando Diao",
-                "project": "Project: Black Saturday, Sweet Wet Dreams",
+                "heading":  "Artist: Mando Diao.",
+                "project": "Project: Black Saturday, Sweet Wet Dreams.",
                 "text": "Production Company: Diktator"
             },
             { 
-                "heading":  "Artist: Viagra Boys",
-                "project": "Project: Sports, Just Like You",
+                "heading":  "Artist: Viagra Boys.",
+                "project": "Project: Sports, Just Like You.",
                 "text": "Production Company: Diktator"
             },
             { 
-                "heading":  "Artist: Ansiktet",
-                "project": "Project: Fyra Våningar Upp",
+                "heading":  "Artist: Ansiktet.",
+                "project": "Project: Fyra Våningar Upp.",
                 "text": "Production Company: Diktator"
             }
         ],
