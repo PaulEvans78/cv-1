@@ -388,6 +388,10 @@ h3 {
     font-size: 1.5rem;
 }
 
+#webCvFont, #skillsCvFont, #charaCvFont, #cinemaCvFont {
+    text-decoration: none;
+}
+
 
 
 
@@ -572,10 +576,12 @@ aside {
 .latestWork-thumbs {
     width: 50%;
     margin: 0.5em;
+    cursor: pointer;
 }
 
 .latestWork-thumbs:hover {
-    width: 60%;
+    width: 52%;
+    /* border-bottom: 1px solid black; */
 }
 
 .repoHeader{
@@ -611,7 +617,9 @@ aside {
     padding: 0.5em 1em;
     border: 1px solid black;
     margin-bottom: 1em;
+    cursor: pointer;
 }
+
 
 .grid-web-portfolio {
     display: grid;
@@ -1567,6 +1575,22 @@ h3 {
             "film film film";
     }
 
+    .grid-latest-work {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "latestWork latestWorkapi";
+        /* "latestWorkapi"; */
+        justify-items: center;
+        align-items: center;
+        /* border: 1px solid black; */
+        margin-top: 0.5em;
+    }
+
+    #gitHubApi {
+        border-top: none;
+    }
+
      .grid-web-portfolio {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -1588,6 +1612,15 @@ h3 {
     .slideImg {
         width: 50%;
     }
+
+    .fetch_button:hover {
+    background-color: black;
+    color: white;
+    }
+
+    /* .fetch_button {
+        cursor: pointer;
+    } */
 
 }
 
