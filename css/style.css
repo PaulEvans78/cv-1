@@ -581,7 +581,6 @@ aside {
 
 .latestWork-thumbs:hover {
     width: 52%;
-    /* border-bottom: 1px solid black; */
 }
 
 .repoHeader{
@@ -591,9 +590,6 @@ aside {
 
 #gitHubApi {
     grid-area: latestWorkapi;
-    /* margin-top: 1.5em; */
-    /* padding: 1em; */
-    /* min-width:10%; */
     border-top: 1px solid black;
 }
 
@@ -603,7 +599,6 @@ aside {
     font-size: 0.75rem;
     line-height: 2rem;
     padding: 1em 1em 2em 1em;
-    /* padding-bottom: 2em; */
 }
 
 .hide {
@@ -1088,18 +1083,21 @@ aside {
     background-image: url("../img/rock.png");
     grid-area: rock;
     justify-self: center;
+    cursor: pointer;
 }
 
 #paper {
     background-image: url("../img/papper.png");
     grid-area: paper;
     justify-self: center;
+    cursor: pointer;
 }
 
 #scissors {
     background-image: url("../img/scissors.png");
     grid-area: scissors;
     justify-self: center;
+    cursor: pointer;
 }
 
 .gameInfo {
@@ -1617,10 +1615,6 @@ h3 {
     background-color: black;
     color: white;
     }
-
-    /* .fetch_button {
-        cursor: pointer;
-    } */
 
 }
 
