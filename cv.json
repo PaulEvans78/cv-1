@@ -1,178 +1,178 @@
-    {
-        "self": [
-            {
-                "text": "Calm, Methodical, Creative, Willpower, Positive, Social, Entreprenurial, Action oriented"
-            }
-            ],
-
-        "skills": [
-            {
-                 "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
-            }
-        ],
-
-        "webExperience": [
-            {   
-                "heading": "Student @ Chas Academy, UX/UI with Frontend competence.",
-                "text": " 2022 - to date."
-            },
-            { 
-                "heading": "Paul Evans FSF: ",
-                "text": " Built a website to showcase my work as a cinematographer"
-            },
-            {
-                "heading": "Neon Cinema: ",
-                "text": "A school examination project from ChangeMaker Education"
-            }
-        ],
-
-        "filmExperience": [
-            { 
-                "heading": " Project: Streams 2: ",
-                "text": "Production Company: Realistor, SVT"
-            },
-            {
-                "heading": "Project: Vi Forever: ",
-                "text": "Production Company: Salli productions, SVT"
-            },
-            {
-                "heading":  "Project: The Last Journey of the Vikings:",
-                "text": "Production Company: Mopar Studios, Viaplay"
-            }
-        ],
-
-        "comExperience": [
-            { 
-                "heading": "Brands: Call of Duty, AllerMedia.",
-                "text": "Production Company: Fanny o Alexander"
-            },
-            { 
-                "heading": "Brands: Renault, Forex, Barncancerfonden, fonus.",
-                "text": "Production Company: FLX"
-            },
-            { 
-                "heading": "Brands: Coop with Lotta Lundgren.",
-                "text": "Production Company: Savvy Pictures"
-            },
-            { 
-                "heading": "Brands: Narta.",
-                "text": "Production Company: Excuse My french"
-            },
-            { 
-                "heading": "Brands: Apella One.",
-                "text": "Production Company: U Itch I Scratch"
-            },
-            {
-                "heading": "Brands: Stadium, Gant.",
-                "text": "Made to Order"
-            },
-            { 
-                "heading": "Brands: Fruit-Tella, Westlands Safe Lawn, FTPE, IKEA.",
-                "text": "Production Company: Milford Film Studios"
-            },
-            { 
-                "heading": "Brands: Sony Xperia.",
-                "text": "ProductionCompany: Indio"
-            },
-            { 
-                "heading": "Brands: Volvo, Gröna Lund, Triss, Boxer, Honda, Lambi, Stryktipset.",
-                "text": "ProductionCompany: Flodell Film"
-            },
-            { 
-                "heading": "Brands: Doritos Hotel 626.",
-                "text": "Production Company: B-Reel Films"
-            },
-            { 
-                "heading": "Brands: Llyods Apotek, Burger King, ICA Maxi, IVT.",
-                "text": "ProductionCompany: Ligist Film"
-            },
-            { 
-                "heading": "Brands: ST1, Arla.",
-                "text": "Production Company: Esteban"
-            }
-        ],
-
-        "mvExperience": [
-            { 
-                "heading":  "Artist: Ghost.",
-                "project": "Project: A Hunters Moon.",
-                "text": "Production Company: Lomo Vista Recordings"
-            },
-            { 
-                "heading":  "Artist: Katy Perry.",
-                "project": "Project: Roar Promos.",
-                "text": "Production Company: Diktator"
-            },
-            { 
-                "heading":  "Artist:Darin.",
-                "project": "Project: Superstar, Can't Stay Away, Identitetslös.",
-                "text": "Production Company: Rice n Beans Films"
-            },
-            { 
-                "heading":  "Artist: Albin Lee Meldau.",
-                "project": "Project: Josefin.",
-                "text": "Production Company: Rice n Beans Films"
-            },
-            { 
-                "heading":  "Artist: MØ.",
-                "project": "Project: XXX ft. Diplo.",
-                "text": "Production Company: Diktator"
-            },
-            { 
-                "heading":  "Artist: Mando Diao.",
-                "project": "Project: Black Saturday, Sweet Wet Dreams.",
-                "text": "Production Company: Diktator"
-            },
-            { 
-                "heading":  "Artist: Viagra Boys.",
-                "project": "Project: Sports, Just Like You.",
-                "text": "Production Company: Diktator"
-            },
-            { 
-                "heading":  "Artist: Ansiktet.",
-                "project": "Project: Fyra Våningar Upp.",
-                "text": "Production Company: Diktator"
-            }
-        ],
-
-        "education1": [
-            {
-                "school": "Chas Acadmey",
-                "heading": "UX/UI with Frontend",
-                "date": "2022 to date"
-            }
-        ],
-
-        "education2": [
-            {
-                "school": "ChangeMaker Education",
-                "heading": "Frontend Developer",
-                "date": "2021/2022"
-            }
-        ],
-
-        "education3": [
-            {
-                "school": "Jensen Komvux",
-                "heading": "Programmering 1",
-                "date": "2021"
-            }
-        ],
-
-        "education4": [
+{
+    "self": [
         {
-            "school": "The Bournemouth Film School",
-            "heading": "Film and Television HND",
-            "date": "1999"
+         "text": "Calm, Methodical, Creative, Willpower, Positive, Social, Entreprenurial, Action oriented"
         }
-        ],
+    ],
 
-        "education5": [
+    "skills": [
         {
-            "school": "Alton College",
-            "heading": "A-Level. Design and Technology & Communication Studies",
-            "date": "1997"
+         "text": "HTML, CSS, JavaScript, JQuery, Studio Visual Code, GIT/GITHub, JSON, Adobe Photoshop, Adobe Lightroom, Design"
         }
-            
-        ]
-    }
+    ],
+
+    "webExperience": [
+        {   
+         "heading": "Student @ Chas Academy, UX/UI with Frontend competence.",
+         "text": " 2022 - to date."
+        },
+        { 
+         "heading": "Paul Evans FSF: ",
+         "text": " Built a website to showcase my work as a cinematographer"
+        },
+        {
+         "heading": "Neon Cinema: ",
+         "text": "A school examination project from ChangeMaker Education"
+        }
+    ],
+
+    "filmExperience": [
+        { 
+         "heading": " Project: Streams 2: ",
+         "text": "Production Company: Realistor, SVT"
+        },
+        {
+         "heading": "Project: Vi Forever: ",
+         "text": "Production Company: Salli productions, SVT"
+        },
+        {
+         "heading":  "Project: The Last Journey of the Vikings:",
+         "text": "Production Company: Mopar Studios, Viaplay"
+        }
+    ],
+
+    "comExperience": [
+        { 
+         "heading": "Brands: Call of Duty, AllerMedia.",
+         "text": "Production Company: Fanny o Alexander"
+        },
+        { 
+         "heading": "Brands: Renault, Forex, Barncancerfonden, fonus.",
+         "text": "Production Company: FLX"
+        },
+        { 
+         "heading": "Brands: Coop with Lotta Lundgren.",
+         "text": "Production Company: Savvy Pictures"
+        },
+        { 
+         "heading": "Brands: Narta.",
+         "text": "Production Company: Excuse My french"
+        },
+        { 
+         "heading": "Brands: Apella One.",
+         "text": "Production Company: U Itch I Scratch"
+        },
+        {
+         "heading": "Brands: Stadium, Gant.",
+         "text": "Made to Order"
+        },
+        { 
+         "heading": "Brands: Fruit-Tella, Westlands Safe Lawn, FTPE, IKEA.",
+         "text": "Production Company: Milford Film Studios"
+        },
+        { 
+         "heading": "Brands: Sony Xperia.",
+         "text": "ProductionCompany: Indio"
+        },
+        { 
+         "heading": "Brands: Volvo, Gröna Lund, Triss, Boxer, Honda, Lambi, Stryktipset.",
+         "text": "ProductionCompany: Flodell Film"
+        },
+        { 
+         "heading": "Brands: Doritos Hotel 626.",
+         "text": "Production Company: B-Reel Films"
+        },
+        { 
+         "heading": "Brands: Llyods Apotek, Burger King, ICA Maxi, IVT.",
+         "text": "ProductionCompany: Ligist Film"
+        },
+        { 
+         "heading": "Brands: ST1, Arla.",
+         "text": "Production Company: Esteban"
+        }
+    ],
+
+    "mvExperience": [
+        { 
+         "heading":  "Artist: Ghost.",
+         "project": "Project: A Hunters Moon.",
+         "text": "Production Company: Lomo Vista Recordings"
+        },
+        { 
+         "heading":  "Artist: Katy Perry.",
+         "project": "Project: Roar Promos.",
+         "text": "Production Company: Diktator"
+        },
+        { 
+         "heading":  "Artist:Darin.",
+         "project": "Project: Superstar, Can't Stay Away, Identitetslös.",
+         "text": "Production Company: Rice n Beans Films"
+        },
+        { 
+         "heading":  "Artist: Albin Lee Meldau.",
+         "project": "Project: Josefin.",
+         "text": "Production Company: Rice n Beans Films"
+        },
+        { 
+         "heading":  "Artist: MØ.",
+         "project": "Project: XXX ft. Diplo.",
+         "text": "Production Company: Diktator"
+        },
+        { 
+         "heading":  "Artist: Mando Diao.",
+         "project": "Project: Black Saturday, Sweet Wet Dreams.",
+         "text": "Production Company: Diktator"
+        },
+        { 
+         "heading":  "Artist: Viagra Boys.",
+         "project": "Project: Sports, Just Like You.",
+         "text": "Production Company: Diktator"
+        },
+        { 
+         "heading":  "Artist: Ansiktet.",
+         "project": "Project: Fyra Våningar Upp.",
+         "text": "Production Company: Diktator"
+        }
+    ],
+
+    "education1": [
+        {
+         "school": "Chas Acadmey",
+         "heading": "UX/UI with Frontend",
+         "date": "2022 to date"
+        }
+    ],
+
+    "education2": [
+        {
+         "school": "ChangeMaker Education",
+         "heading": "Frontend Developer",
+         "date": "2021/2022"
+        }
+    ],
+
+    "education3": [
+        {
+         "school": "Jensen Komvux",
+         "heading": "Programmering 1",
+         "date": "2021"
+        }
+    ],
+
+    "education4": [
+        {
+         "school": "The Bournemouth Film School",
+         "heading": "Film and Television HND",
+         "date": "1999"
+        }
+    ],
+
+    "education5": [
+        {
+         "school": "Alton College",
+         "heading": "A-Level. Design and Technology & Communication Studies",
+         "date": "1997"
+        }
+        
+    ]
+}
