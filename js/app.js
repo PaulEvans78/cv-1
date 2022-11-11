@@ -1,23 +1,15 @@
 
 // GAME
 
-
+// Gobal
 const showComputerChoice = document.getElementById("computerchoice")
 const showUserChoice = document.getElementById("userchoice")
 const showResult = document.getElementById("result")
 const buttons = document.querySelectorAll(".btn")
-let userChoice // Gobal
+let userChoice 
 let computerChoice
 let result
 
-// function buttonsClick (){
-// forEach.buttons.addEventListener('click', (e) ) // For each button assign an event listener for click and create an event
-//     userChoice = e.target.id // event saves the button id to userchoice and saved above to make global
-//     showUserChoice.innerHTML = userChoice //Prints out in html
-//     console.log("user choice:", userChoice)
-//     generateComputerChoice() // create a new function for computers choice
-//     compareChoice() // create a new function for compare choice
-// }
 
 buttons.forEach(buttons => buttons.addEventListener('click', (event) => { // For each button assign an event listener for click and create an event
     userChoice = event.target.id // event saves the button id to userchoice and saved above to make global
