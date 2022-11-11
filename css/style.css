@@ -571,6 +571,7 @@ aside {
     justify-items: center;
     border: 1px solid black;
     margin-top: 0.5em;
+    padding-bottom: 1.5em;
 }
 
 .latestWork-thumbs {
@@ -603,6 +604,14 @@ aside {
 
 .hide {
         display: none;
+}
+
+.git_link {
+    color: hotpink;
+}
+
+.gitApiList {
+    list-style: none;
 }
 
 
@@ -1218,7 +1227,7 @@ h3 {
     /* PORTFOLIO -767PX */
     .grid-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.10fr 0.10fr 0.10fr 1.8fr 0.10fr 2fr 0.10fr 5fr;
+        grid-template-rows: 0.10fr 0.1fr 0.10fr 1.8fr 0.10fr 2fr 0.10fr 5fr;
         grid-template-areas: 
             "latestWork-header latestWork-header"
             "latestWork latestWork"
@@ -1578,10 +1587,8 @@ h3 {
         grid-template-rows: 1fr;
         grid-template-areas:
         "latestWork latestWorkapi";
-        /* "latestWorkapi"; */
         justify-items: center;
         align-items: center;
-        /* border: 1px solid black; */
         margin-top: 0.5em;
     }
 
@@ -1615,6 +1622,14 @@ h3 {
     background-color: black;
     color: white;
     }
+
+    .git_link {
+        color: hotpink;
+    }
+
+    .git_link:hover {
+        color: black;
+        }
 
 }
 
