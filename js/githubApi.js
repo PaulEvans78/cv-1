@@ -11,14 +11,16 @@ async function  getrepo() {
 
     let response = await fetch(url);
 
+
     const repoList = document.getElementById("gitRepos")
+    
 
     if(response.ok) {
         let data = await response.json();
         loadingStatus.innerText = " "
         console.log(data);
         for (const item of data){
-            createRepoLi(repoList, item.name, item.url, item.description)
+            createRepoLi(repoList, item.name, item.html_url, item.description)
         }
 
     } else {
@@ -27,12 +29,21 @@ async function  getrepo() {
         }
     }
 
-    function createRepoLi(repoList, name, url, description){
+    function createRepoLi(repoList, name, html_url, description){
         const li = document.createElement('li')
-        li.innerText = name + "\n " + url + "\n " + description
+        const a = document.createElement('a') 
+        li.innerText = name + "\n " + description
         li.classList.add("gitHubStyle");
+        a.classList.add("pinkStyle");
+
+        
         repoList.appendChild(li)
+        repoList.innerHTML += `<li class="gitApiList"><a href="${html_url}" class="git_link">${html_url}</a></li>`;
     }
+
+   
+
+
 
     getrepo();
 
