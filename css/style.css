@@ -1227,7 +1227,7 @@ h3 {
     /* PORTFOLIO -767PX */
     .grid-container {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.10fr 0.1fr 0.10fr 1.8fr 0.10fr 2fr 0.10fr 5fr;
+        grid-template-rows: 0.10fr 0.1fr 0.10fr 1.4fr 0.10fr 1.6fr 0.10fr 5fr;
         grid-template-areas: 
             "latestWork-header latestWork-header"
             "latestWork latestWork"
@@ -1615,8 +1615,9 @@ h3 {
     }
 
     .slideImg {
-        width: 50%;
+        width: 30%;
     }
+
 
     .fetch_button:hover {
     background-color: black;
